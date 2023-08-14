@@ -5,12 +5,8 @@ function MyForm() {
     const initialFormData = {
     firstName: '',
     lastName: '',
-    email: '',
-    address:'',
     phone:'',
     gender:'',
-    loanAmount:'',
-    loanTenure:'',
     checkbox:'',
 
   };
@@ -35,7 +31,7 @@ function MyForm() {
   };
   return (
     <div>
-      <h1>Loan Application Form</h1>  
+      <h1>Pre Owned Car Enquiry Form</h1>  
       <form onSubmit={handleSubmit}>
         <label>
          First Name:
@@ -59,31 +55,10 @@ function MyForm() {
           />
         </label>
         <br/>
-    
+
 
         <label>
-          Email:
-          <input
-            type="email"
-            name="email"
-            value={formData.email}
-            onChange={handleChange}
-          />
-        </label>
-        <br/>
-
-        <label>
-          Address:
-          <textarea
-            name = "address"
-            value={formData.address}
-            onChange={handleChange}
-            />
-        </label>
-        <br/>
-
-        <label>
-          Contact number:
+          Mobile number:
           <input
           type="tel"
           name="phone"
@@ -114,30 +89,7 @@ function MyForm() {
         </label>
         <br/>
       
-        <label>
-          Loan Amount:
-          <input
-            type="number"
-            name="loanAmount"
-            value={formData.loanAmount}
-            onChange={handleChange}
-          />
-        </label>
-        <br/>
-
-        <label>
-          Loan Tenure:
-          <select
-            name="loanTenure"
-            value={formData.loanTenure}
-            onChange={handleChange}
-          >
-            <option value="5">5 years</option>
-            <option value="10">10 years</option>
-            <option value="15">15 years</option>
-          </select>
-        </label>
-        <br/>
+        <
 
         <label>
           <input
