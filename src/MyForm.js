@@ -88,8 +88,6 @@ function MyForm() {
         Female
         </label>
         <br/>
-      
-        <
 
         <label>
           <input
