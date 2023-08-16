@@ -156,7 +156,9 @@ export default function Form() {
               onChange={handleInputChange}
               required
             />
-            I accept the terms & conditions*
+            I accept the terms & conditions
+            <br></br><small>The provision of personal information to our website will remain voluntary. Such<br></br> 
+            information wiil not be disclosed to third parties without your express consent</small>
           </label>
         </div> <br/>
 
@@ -167,17 +169,6 @@ export default function Form() {
     </div>
   );
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
