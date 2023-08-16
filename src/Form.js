@@ -27,7 +27,7 @@ export default function Form() {
   const handleSubmit = (event) => {
     event.preventDefault();
     console.log(state);
-    setState(initialFormState); // Reset the form to blank
+    setState(initialFormState);
   };
 
   return (
