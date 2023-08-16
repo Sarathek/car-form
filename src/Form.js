@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 
-function MyForm() {
+function Form() {
     const initialFormData = {
     firstName: '',
     lastName: '',
@@ -107,4 +107,4 @@ function MyForm() {
   );
 }
 
-export default MyForm;
+export default Form;
